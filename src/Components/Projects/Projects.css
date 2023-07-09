@@ -1,0 +1,161 @@
+.mainCard{
+  background-color: tomato;
+  padding: 7px;
+}
+.imgDiv {
+  cursor: pointer;
+
+}
+.imgProject {
+  border: 1px #000 solid !important;
+  border-radius: 30px !important;
+  height: 300px;
+}
+.mainCard {
+  background-color: rgb(19, 19, 40) !important;
+  border: 1px solid #e8ac34 !important;
+  border-radius: 30px;
+  color: #c0bdb7 !important;
+  position: relative !important;
+  height: 520px;
+}
+
+
+.textBody {
+  background-color: rgba(21, 21, 36, 0.7) !important;
+  border: 1px solid transparent !important;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 40%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.mainCard:hover .textBody {
+  opacity: 1;
+}
+.btnDiv {
+  cursor: pointer;
+  position: relative;
+  top: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.mainCard:hover .btnDiv {
+  top: 70%;
+}
+.btn {
+  font-weight: bold !important;
+  background-color: #12f7ff !important;
+  color: #061d35 !important;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+  background-color: #061d35 !important;
+  color: #dee3e9 !important;
+}
+.Project {
+  position: relative;
+  letter-spacing: 2px;
+}
+.Project::before {
+  content: "";
+  background-color: #e8ac34;
+  position: absolute;
+  top: 45px;
+  width: 130px;
+  height: 2px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .mainCard:hover .textBody {
+    bottom: 230px;
+  }
+  .btn {
+    font-size: 14px !important;
+  }
+
+  .btnDiv {
+    right: 5% !important;
+  }
+  .mainCard:hover .btnDiv {
+    top: 70%;
+  }
+  .des {
+    font-size: 15px !important;
+  }
+}
+/* //======================================== */
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+  .col-Project {
+    display: flex;
+    justify-content: center;
+    width: 50% !important;
+  }
+
+  .btnDiv {
+    left: 5% !important;
+  }
+  .mainCard:hover .btnDiv {
+    top: 70%;
+  }
+  .des {
+    font-size: 14px !important;
+  }
+  .des h2 {
+    font-size: 20px;
+  }
+}
+/* ========================================================================= */
+@media screen and (min-width: 770px) and (max-width: 990px) {
+
+  .col-Project {
+    display: flex;
+    justify-content: center;
+    width: 50% !important;
+  }
+  .btnDiv .btn {
+    font-size: 10px !important;
+    margin-right: 30px !important;
+  }
+  .btnDiv {
+    display: flex;
+  }
+  .mainCard:hover .btnDiv {
+    top: 70%;
+  }
+  .des {
+    font-size: 14px !important;
+  }
+  .des h2 {
+    font-size: 20px;
+  }
+}
+/* //============================================================== */
+@media screen and (min-width: 500px) and (max-width: 770px) {
+
+  .col-Project {
+    display: flex;
+    justify-content: center;
+  }
+  .btnDiv .btn {
+    margin-right: 70px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .col-Project {
+    display: flex;
+    justify-content: center;
+  }
+  .btnDiv .btn {
+    margin-right: 50px !important;
+  }
+  .btnDiv {
+    background-color: #65ff12;
+    display: flex;
+  }
+}

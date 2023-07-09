@@ -1,0 +1,27 @@
+.ContactMe {
+  position: relative;
+  letter-spacing: 4px;
+}
+.ContactMe::before {
+  content: "";
+  background-color: #e8ac34;
+  position: absolute;
+  top: 40px;
+  width: 190px;
+  height: 2px;
+}
+.contactCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-Form {
+  width: 70% !important;
+}
+
+@media screen and (min-width: 500px) and (max-width: 770px) {
+  .contact-Form {
+    width: 90% !important;
+
+  }
+}

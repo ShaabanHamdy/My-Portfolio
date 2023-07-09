@@ -1,0 +1,66 @@
+.AboutMe {
+  position: relative;
+  letter-spacing: 4px;
+}
+.AboutMe::before {
+  content: "";
+  background-color: #e8ac34;
+  position: absolute;
+  top: 50px;
+  width: 210px;
+  height: 2px;
+}
+
+.imageText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  border: 1px solid #e8ac34;
+  border-radius: 20px;
+}
+.img {
+  border-radius: 50px;
+  width: 300px;
+  height: 400px;
+  margin-right: 10px;
+}
+.aboutMe {
+  letter-spacing: 1.5px;
+  padding: 10px;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2em;
+  text-align: left;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 770px) {
+  .aboutMe {
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .img {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutMe {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 24px;
+  }
+  .Download {
+    font-size: 10px !important;
+    width: 70%;
+  }
+  .img {
+    width: 150px;
+  }
+}

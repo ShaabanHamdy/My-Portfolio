@@ -1,0 +1,64 @@
+.Skills {
+  margin-top: 70px;
+  position: relative;
+  letter-spacing: 4px;
+}
+.Skills::before {
+  content: "";
+  background-color: #e8ac34;
+  position: absolute;
+  top: 40px;
+  width: 90px;
+  height: 2px;
+}
+
+.imageIcon {
+  max-width: 60px;
+  margin-bottom: 5px;
+}
+
+.rowAll {
+  border: 1px solid #e8ac34;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 50px 0px 150px;
+}
+.iconsSize {
+  font-size: 60px;
+}
+
+@media screen and (min-width: 770px) and (max-width: 991px) {
+  .rowAll {
+    padding: 0px;
+  }
+  .col-md-2 {
+    width: 25% !important;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 770px) {
+  #SKILLS{
+    margin: 50px;
+  }
+  .rowAll {
+    padding: 0px;
+    margin: 0;
+  }
+  .col-md-2 {
+    /* background-color: #e8ac34; */
+    width: 50% !important;
+  }
+}
+@media screen and  (max-width: 500px) {
+  #SKILLS{
+    margin: 50px;
+  }
+  .rowAll {
+    padding: 0px;
+    margin: 0;
+  }
+  .col-md-2 {
+    background-color: #e8ac34;
+    width: 50% !important;
+  }
+}
