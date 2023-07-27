@@ -60,6 +60,7 @@
   position: relative;
   letter-spacing: 2px;
 }
+
 .Project::before {
   content: "";
   background-color: #e8ac34;
@@ -68,7 +69,7 @@
   width: 130px;
   height: 2px;
 }
-
+/* =================================================================== */
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   .mainCard:hover .textBody {
     bottom: 230px;
@@ -144,18 +145,30 @@
   .btnDiv .btn {
     margin-right: 70px !important;
   }
+  .btnDiv {
+    display: flex;
+    justify-content: space-around;
+  }
 }
-
+/* //============================================================================= */
 @media screen and (max-width: 500px) {
   .col-Project {
     display: flex;
     justify-content: center;
   }
   .btnDiv .btn {
-    margin-right: 50px !important;
+    width: 100%;
+    margin: 5px !important;
   }
   .btnDiv {
-    background-color: #65ff12;
     display: flex;
+    justify-content: space-around;
   }
+  
+.Project::before {
+  top: 30px;
+  width: 110px;
+  height: 1px;
+}
+
 }

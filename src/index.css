@@ -3,26 +3,4 @@ body {
   color: rgb(255, 255, 255);
   background-color: rgb(1, 1, 31);
   font-family: "Varela Round", sans-serif;
-box-sizing: border-box;
 }
-
-/* @media screen and (min-width: 990px) and (max-width: 1200px) {
-  .col-Project {
-    display: flex;
-    justify-content: center;
-    width: 50% !important;
-  }
-
-  .btnDiv {
-    left: 5% !important;
-  }
-  .mainCard:hover .btnDiv {
-    top: 70%;
-  }
-  .des {
-    font-size: 14px !important;
-  }
-  .des h2 {
-    font-size: 20px;
-  }
-} */

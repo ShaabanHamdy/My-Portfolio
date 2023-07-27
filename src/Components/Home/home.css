@@ -69,17 +69,23 @@
 /* //============================================ size 4 ================================== */
   @media screen and (max-width: 500px) {
     .icon {
-      font-size: 17px;
+      font-size: 25px;
       margin: 5px;
       border: 2px solid;
-      width: 40px;
-      padding-top: 10px;
-      height:  40px;
-      
+      /* width: 45px; */
+      /* padding-top: 13px; */
+      /* height:  45px; */
+      /* margin-right: 5px; */
     }
+    .Hello-p{
+      display: block;
+      margin-bottom: 20px;
+    }
+    
     .content {
-      left: 10% !important;
-      top: 55% !important;
+      width: 90%;
+      left: 4% !important;
+      top: 45% !important;
     }
     
   }

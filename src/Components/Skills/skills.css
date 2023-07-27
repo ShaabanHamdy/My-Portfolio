@@ -3,6 +3,7 @@
   position: relative;
   letter-spacing: 4px;
 }
+
 .Skills::before {
   content: "";
   background-color: #e8ac34;
@@ -35,7 +36,7 @@
     width: 25% !important;
   }
 }
-
+/* =================================================================== */
 @media screen and (min-width: 500px) and (max-width: 770px) {
   #SKILLS{
     margin: 50px;
@@ -45,20 +46,26 @@
     margin: 0;
   }
   .col-md-2 {
-    /* background-color: #e8ac34; */
     width: 50% !important;
   }
 }
+/* //============================================== */
 @media screen and  (max-width: 500px) {
   #SKILLS{
     margin: 50px;
   }
+
+  .Skills::before {
+    top: 30px;
+    width: 80px;
+    height: 1px;
+  }
+  
   .rowAll {
     padding: 0px;
     margin: 0;
   }
   .col-md-2 {
-    background-color: #e8ac34;
     width: 50% !important;
   }
 }

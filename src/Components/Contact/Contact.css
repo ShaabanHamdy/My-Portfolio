@@ -18,10 +18,21 @@
 .contact-Form {
   width: 70% !important;
 }
-
+/* ==================================================================== */
 @media screen and (min-width: 500px) and (max-width: 770px) {
   .contact-Form {
     width: 90% !important;
 
+  }
+}
+/* ================================================ */
+@media screen and (max-width: 500px) {
+  .contact-Form {
+    width: 90% !important;
+  }
+  .ContactMe::before {
+    top: 30px;
+    width: 170px;
+    height: 1px;
   }
 }
