@@ -15,6 +15,10 @@
     height: 2px;
     position: absolute;
     bottom: 9px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 .nav-link:hover::before{
     transition: all 0.5s;
@@ -24,6 +28,10 @@
     height: 2px;
     position: absolute;
     bottom: 9px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 @media screen  and (min-width : 770px) and (max-width : 992px)

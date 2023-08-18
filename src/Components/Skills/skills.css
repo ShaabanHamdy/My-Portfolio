@@ -23,6 +23,10 @@
   border-radius: 30px;
   padding: 50px;
   margin: 50px 0px 150px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 .iconsSize {
   font-size: 60px;
