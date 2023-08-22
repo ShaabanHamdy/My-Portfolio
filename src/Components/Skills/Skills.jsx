@@ -5,6 +5,8 @@ import redux from "../images/redux-icon.png";
 import gitHub from "../images/github.png";
 import mongo from "../images/mongo.png";
 import graphQl from "../images/GraphQ.png";
+import typescript from "../images/typescript-icon.png";
+import nextJs from "../images/next.png";
 
 const Skills = () => {
   return (
@@ -50,11 +52,24 @@ const Skills = () => {
               <img className="imageIcon" src={gitHub} alt="" />
               <p>Github</p>
             </div>
+            {/* SiTypescript */}
           </div>
           <div className="col-md-2">
             <div className="   text-center">
               <i className="iconsSize fab fa-react text-info"></i>
               <p>React js</p>
+            </div>
+          </div>
+          <div className="col-md-2">
+            <div className="   text-center">
+            <img className="imageIcon" src={typescript} alt="" />
+              <p>TypeScript</p>
+            </div>
+          </div>
+          <div className="col-md-2">
+            <div className="   text-center">
+            <img className="imageIcon" src={nextJs} alt="" />
+              <p>Next.js</p>
             </div>
           </div>
           <div className="col-md-2">

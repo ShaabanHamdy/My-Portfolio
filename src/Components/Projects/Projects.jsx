@@ -4,6 +4,7 @@ import noxMove from "../images/noxe.png";
 import notes from "../images/notes.png";
 import CRUD from "../images/CRUD SYSTEM .png";
 import Yummy from "../images/Yummy.png";
+import crudTypescript from "../images/crus-typescript.png";
 import "./Projects.css";
 const Projects = () => {
   return (
@@ -13,6 +14,36 @@ const Projects = () => {
           <h2 className="Project">Projects</h2>
         </div>
 
+        <div className="col-md-4 col-Project">
+          <div className="mainCard  w-75" style={{ width: "30rem" }}>
+            <div className="imgDiv">
+              <img className="imgProject w-100" src={crudTypescript} />
+            </div>
+            <div className="textBody">
+              <div className="btnDiv">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShaabanHamdy/React-TypeScript-Crud-System"
+                >
+                  <button className="btn btn-info mx-5">Github</button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://shaban-hamdy-react-typescrit-crud.netlify.app/"
+                >
+                  <button className="btn btn-info">Live Demo</button>
+                </a>
+              </div>
+            </div>
+            <div className="p-2 text-center des">
+              <h3 className=" fw-bold">To Do List React-TypeScript</h3>
+              <p className=" fw-bold">
+                simple to-do-list project using Vite-React-TypeScript you can able to
+                add and edit and remove your note
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="col-md-4 col-Project">
           <div className="mainCard  w-75" style={{ width: "30rem" }}>
             <div className="imgDiv">
@@ -68,7 +99,6 @@ const Projects = () => {
             <div className="p-2 text-center des">
               <h2 className=" fw-bold">Noxe Movies</h2>
               <p className=" fw-bold">
-
                 noxe movies like netflix using in this project MERN Stack
                 [MongoDb - Express js - React js - Node js ] and Sass -
                 Bootstrap
@@ -132,10 +162,11 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-2 text-center des">
-              <h2 className=" fw-bold">Yummy food  </h2>
+              <h2 className=" fw-bold">Yummy food </h2>
               <p className=" fw-bold">
                 {" "}
-                Yummy food project  search about food around the world  using [ HTML - CSS - JS - jQuery -  Bootstrap  - APIS ]
+                Yummy food project search about food around the world using [
+                HTML - CSS - JS - jQuery - Bootstrap - APIS ]
               </p>
             </div>
           </div>
@@ -165,7 +196,8 @@ const Projects = () => {
               <h2 className=" fw-bold">Notes </h2>
               <p className=" fw-bold">
                 {" "}
-                to do list project CRUD  with MERN Stack  using [ MondoDB - Express.js - React.js - Node.js - Redux - Bootstrap ]
+                to do list project CRUD with MERN Stack using [ MondoDB -
+                Express.js - React.js - Node.js - Redux - Bootstrap ]
               </p>
             </div>
           </div>
