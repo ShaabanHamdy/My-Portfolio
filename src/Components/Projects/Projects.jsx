@@ -5,6 +5,7 @@ import notes from "../images/notes.png";
 import CRUD from "../images/CRUD SYSTEM .png";
 import Yummy from "../images/Yummy.png";
 import crudTypescript from "../images/crus-typescript.png";
+import graph from "../images/graphQL.png";
 import "./Projects.css";
 const Projects = () => {
   return (
@@ -70,6 +71,35 @@ const Projects = () => {
               <p className=" fw-bold">
                 countdown with days and hours and minutes and seconds to new
                 year 2024. <br /> using: HTML - CSS - Bootstrap - Js - jQuery
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 col-Project">
+          <div className="mainCard  w-75" style={{ width: "30rem" }}>
+            <div className="imgDiv">
+              <img className="imgProject w-100" src={graph} />
+            </div>
+            <div className="textBody">
+              <div className="btnDiv">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShaabanHamdy/To-do-list-GraphQL-React"
+                >
+                  <button className="btn btn-info mx-5">Github</button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://to-do-list-graph-ql-react-shaaban-hamdy.vercel.app/"
+                >
+                  <button className="btn btn-info">Live Demo</button>
+                </a>
+              </div>
+            </div>
+            <div className="p-2 text-center des">
+              <h2 className=" fw-bold">GraphQL project</h2>
+              <p className=" fw-bold">
+            simple to do list using GraphQL with React in front and Node in back database MongoDB
               </p>
             </div>
           </div>
