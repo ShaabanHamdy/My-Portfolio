@@ -6,6 +6,7 @@ import CRUD from "../images/CRUD SYSTEM .png";
 import Yummy from "../images/Yummy.png";
 import crudTypescript from "../images/crus-typescript.png";
 import graph from "../images/graphQL.png";
+import eCommerce from "../images/e-commerce.PNG";
 import "./Projects.css";
 const Projects = () => {
   return (
@@ -15,6 +16,36 @@ const Projects = () => {
           <h2 className="Project">Projects</h2>
         </div>
 
+        <div className="col-md-4 col-Project">
+          <div className="mainCard  w-75" style={{ width: "30rem" }}>
+            <div className="imgDiv">
+              <img className="imgProject w-100" src={eCommerce} />
+            </div>
+            <div className="textBody">
+              <div className="btnDiv">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShaabanHamdy/React-TypeScript-Crud-System"
+                >
+                  <button className="btn btn-info mx-5">Github</button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://shaban-hamdy-react-typescrit-crud.netlify.app/"
+                >
+                  <button className="btn btn-info">Live Demo</button>
+                </a>
+              </div>
+            </div>
+            <div className="p-2 text-center des">
+              <h3 className=" fw-bold">E-commerce project</h3>
+              <p className=" fw-bold">
+              E-commerce project with MERN Stack using [ React.js-Node.js-Express.js-Context-Bootstrap-mongoDB]
+              </p>
+            </div>
+          </div>
+        </div>
+        
         <div className="col-md-4 col-Project">
           <div className="mainCard  w-75" style={{ width: "30rem" }}>
             <div className="imgDiv">
@@ -45,6 +76,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
         <div className="col-md-4 col-Project">
           <div className="mainCard  w-75" style={{ width: "30rem" }}>
             <div className="imgDiv">
@@ -70,7 +102,7 @@ const Projects = () => {
               <h2 className=" fw-bold">Countdown project</h2>
               <p className=" fw-bold">
                 countdown with days and hours and minutes and seconds to new
-                year 2024. <br /> using: HTML - CSS - Bootstrap - Js - jQuery
+                year 2024 using HTML-CSS-Bootstrap-Js-jQuery
               </p>
             </div>
           </div>
