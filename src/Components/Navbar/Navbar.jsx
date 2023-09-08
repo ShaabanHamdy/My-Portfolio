@@ -1,5 +1,5 @@
 import React from 'react'
-import  './navbar.css'
+import style from './navbar.module.css'
 
 
 const Navbar = () => {
@@ -14,16 +14,16 @@ const Navbar = () => {
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2  mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#ABOUT">About</a>
+          <a className={`nav-link active ${style.NavLink}`} aria-current="page" href="#ABOUT">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#SKILLS">Skills</a>
+          <a className={`nav-link active ${style.NavLink}`} aria-current="page" href="#SKILLS">Skills</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#PROJECTS">Projects</a>
+          <a className={`nav-link active ${style.NavLink}`} aria-current="page" href="#PROJECTS">Projects</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#CONTACTS">Contact</a>
+          <a className={`nav-link active ${style.NavLink}`} aria-current="page" href="#CONTACTS">Contact</a>
         </li>
         
       </ul>

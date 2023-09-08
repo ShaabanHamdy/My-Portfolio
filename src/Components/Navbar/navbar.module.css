@@ -1,13 +1,13 @@
 
-.nav-link{
+.NavLink{
     letter-spacing: 1px;
     color: #fff !important;
     position: relative;
 }
-.nav-link:hover{
+.NavLink:hover{
     color: #e8ac34 !important;
 }
-.nav-link::before{
+.NavLink::before{
     transition: all 0.5s;
     content: "";
     background-color: #e8ac34 !important;
@@ -20,7 +20,7 @@
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
 }
-.nav-link:hover::before{
+.NavLink:hover::before{
     transition: all 0.5s;
     content: "";
     background-color:  #e8ac34 !important;

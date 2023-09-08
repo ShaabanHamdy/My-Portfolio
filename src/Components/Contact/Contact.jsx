@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
-import "./Contact.css";
+import style from  "./Contact.module.css";
 import Joi from "joi";
 const Contact = () => {
   //=================================== useState for set names value from user use name of input
@@ -88,10 +88,10 @@ return (
 
       <div id="CONTACTS" className="row  mt-5 pt-5 gy-5">
         <div className=" text-center">
-          <h2 className="ContactMe">Contact Me</h2>
+          <h2 className={style.ContactMe}>Contact Me</h2>
         </div>
-        <div className="col-md-12  contactCol">
-          <form className="contact-Form" onSubmit={sendEmail}>
+        <div className={`col-md-12 ${style.contactCol}`} >
+          <form className={style.contactForm} onSubmit={sendEmail}>
             <div>
               <label>Name</label>
               <input

@@ -15,19 +15,19 @@
   justify-content: center;
   align-items: center;
 }
-.contact-Form {
+.contactForm {
   width: 70% !important;
 }
 /* ==================================================================== */
 @media screen and (min-width: 500px) and (max-width: 770px) {
-  .contact-Form {
+  .contactForm {
     width: 90% !important;
 
   }
 }
 /* ================================================ */
 @media screen and (max-width: 500px) {
-  .contact-Form {
+  .contactForm {
     width: 90% !important;
   }
   .ContactMe::before {
