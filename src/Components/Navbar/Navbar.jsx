@@ -8,7 +8,7 @@ const Navbar = () => {
    <nav className="navbar navbar-expand-lg fs-4 ">
   <div className="container">
     <a className="navbar-brand text-warning fs-1 fw-bold" href="#HOME">sHaaBan</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button className={`${style.navbarToggler} navbar-toggler`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse " id="navbarSupportedContent">

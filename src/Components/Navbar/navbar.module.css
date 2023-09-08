@@ -36,13 +36,13 @@
 
 @media screen  and (min-width : 770px) and (max-width : 992px)
 {
-.navbar-toggler{
+.navbarToggler{
     background-color: #e8ac34 !important;
 }    
 }
 @media screen  and (max-width : 770px)
 {
-.navbar-toggler{
+.navbarToggler{
     background-color: #e8ac34 !important;
 }    
 }
