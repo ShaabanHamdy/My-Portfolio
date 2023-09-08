@@ -25,13 +25,13 @@ const Projects = () => {
               <div className="btnDiv">
                 <a
                   target="_blank"
-                  href="https://github.com/ShaabanHamdy/React-TypeScript-Crud-System"
+                  href="https://github.com/ShaabanHamdy/ecommerce-menWares-React"
                 >
                   <button className="btn btn-info mx-5">Github</button>
                 </a>
                 <a
                   target="_blank"
-                  href="https://shaban-hamdy-react-typescrit-crud.netlify.app/"
+                  href="https://shaaban-hamdy-mensfashion-ecommerce.netlify.app/"
                 >
                   <button className="btn btn-info">Live Demo</button>
                 </a>
