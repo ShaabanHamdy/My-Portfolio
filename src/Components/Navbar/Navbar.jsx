@@ -9,7 +9,7 @@ const Navbar = () => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
         headerRef.current.style.background = "rgb(1, 1, 31)";
-        headerRef.current.style.padding = "0px";
+        headerRef.current.style.padding = "20px";
       } else {
         headerRef.current.style.background = "transparent";
         headerRef.current.style.padding = "40px 0px";
@@ -35,13 +35,13 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg fs-4  ">
+      <nav className="navbar navbar-expand-lg fs-4    ">
         <div
           ref={headerRef}
-          className={`container-fluid ${style.header} transition-all `}
+          className={`container-fluid ${style.header}  `}
         >
           <a
-            className="navbar-brand text-warning fs-1 fw-bold mx-5 px-5 "
+            className={`${style.navbarBoth} navbar-brand text-warning  fs-1 fw-bold mx-5 px-5 `}
             href="#HOME"
           >
             sHaaBan
@@ -61,7 +61,7 @@ const Navbar = () => {
             className="collapse navbar-collapse "
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav mx-auto me-5">
+            <ul className={`${style.navbarBot} navbar-nav mx-auto me-5`}>
               <li className="nav-item">
                 <a
                   className={`nav-link active ${style.NavLink}`}

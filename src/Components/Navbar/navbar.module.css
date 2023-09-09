@@ -1,74 +1,86 @@
-.header{
-    position: fixed;
-    background-color:transparent ;
-    left: 0px;
-    right: 0;
-    top: 0px;
-    padding: 40px 0px;
-    z-index: 9999999999;
-    transition: all 0.5s !important;
-    -webkit-transition: all 0.5s !important;
-    -moz-transition: all 0.5s !important;
-    -ms-transition: all 0.5s !important;
-    -o-transition: all 0.5s !important;
+.header {
+  position: fixed;
+  background-color: transparent;
+  left: 0px;
+  right: 0;
+  top: 0px;
+  padding: 40px 0px;
+  z-index: 9999999999;
+  transition: all 0.5s !important;
+  -webkit-transition: all 0.5s !important;
+  -moz-transition: all 0.5s !important;
+  -ms-transition: all 0.5s !important;
+  -o-transition: all 0.5s !important;
 }
-.btnTop{
-    position: fixed;
-    right: 10px;
-    bottom: 50px;
-    z-index: 99999;
-    opacity: 0;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
+.btnTop {
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  z-index: 99999;
+  opacity: 0;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
 }
-.NavLink{
-    letter-spacing: 1px;
-    color: #fff !important;
-    position: relative;
-    
+.NavLink {
+  letter-spacing: 1px;
+  color: #fff !important;
+  position: relative;
 }
-.NavLink:hover{
-    color: #e8ac34 !important;
+.NavLink:hover {
+  color: #e8ac34 !important;
 }
-.NavLink::before{
-    transition: all 0.5s;
-    content: "";
-    background-color: #e8ac34 !important;
-    width: 0px;
-    height: 2px;
-    position: absolute;
-    bottom: 9px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
+.NavLink::before {
+  transition: all 0.5s;
+  content: "";
+  background-color: #e8ac34 !important;
+  width: 0px;
+  height: 2px;
+  position: absolute;
+  bottom: 9px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
-.NavLink:hover::before{
-    transition: all 0.5s;
-    content: "";
-    background-color:  #e8ac34 !important;
-    width: 75px;
-    height: 2px;
-    position: absolute;
-    bottom: 9px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
+.NavLink:hover::before {
+  transition: all 0.5s;
+  content: "";
+  background-color: #e8ac34 !important;
+  width: 75px;
+  height: 2px;
+  position: absolute;
+  bottom: 9px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
-@media screen  and (min-width : 770px) and (max-width : 992px)
-{
-.navbarToggler{
+@media screen and (min-width: 770px) and (max-width: 992px) {
+  .navbarToggler {
     background-color: #e8ac34 !important;
-}    
+  }
 }
-@media screen  and (max-width : 770px)
-{
-.navbarToggler{
+@media screen and (max-width: 769px) {
+  .navbarToggler {
     background-color: #e8ac34 !important;
-}    
+  }
+  .navbarBoth {
+    padding:  0px !important;
+  }
+  .navbarBot {
+    padding:  0px 30px !important;
+  }
+  .navbarToggler {
+    margin: 0px 20px !important;
+  }
+  /* .btnTop {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 99999;
+  } */
 }
