@@ -1,21 +1,23 @@
 import React from "react";
 import Typed from "react-typed";
-import style from  "./home.module.css";
+import style from "./home.module.css";
 
 const Home = () => {
   return (
     <>
-      <div className="container-fluid ">
+      <div id="HOME" className="container-fluid ">
         <div className="row">
           <div className="col-md-12 both">
             <div className={style.images}></div>
             <div className={style.content}>
-
               <div className=" text-center">
-              <h1 className="fw-bolder">
-                <span className={style.Hello} >!Hello, </span> I'm{" "}
-                <span className="text-warning shaban-hamdy"> sHaaBan HaMdy</span>
-              </h1>
+                <h1 className="fw-bolder">
+                  <span className={style.Hello}>!Hello, </span> I'm{" "}
+                  <span className="text-warning shaban-hamdy">
+                    {" "}
+                    sHaaBan HaMdy
+                  </span>
+                </h1>
               </div>
               <h3 className="text-center lh-lg">
                 <Typed
@@ -25,8 +27,8 @@ const Home = () => {
                     `I'm a MERN Stack developer`,
                     "Using  MongoDB",
                     "Using Express",
-                    "Using React js",
-                    "Using Node js",
+                    "Using React.js",
+                    "Using Node.js",
                   ]}
                   typeSpeed={150}
                 />
