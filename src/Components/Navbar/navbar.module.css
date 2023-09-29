@@ -12,6 +12,9 @@
   -ms-transition: all 0.5s !important;
   -o-transition: all 0.5s !important;
 }
+.navbarSH{
+  margin: 0px 90px;
+}
 .btnTop {
   position: fixed;
   right: 10px;
@@ -63,13 +66,20 @@
   .navbarToggler {
     background-color: #e8ac34 !important;
   }
+  .navbarToggler {
+    margin: 0px 30px !important;
+  }
+  .navbarBot {
+    padding:  0px 90px !important;
+  }
 }
-@media screen and (max-width: 769px) {
+/* ======================================================================== */
+@media screen and (max-width: 770px) and (min-width: 500px) {
   .navbarToggler {
     background-color: #e8ac34 !important;
   }
-  .navbarBoth {
-    padding:  0px !important;
+  .navbarSH{
+    margin: 0px 20px;
   }
   .navbarBot {
     padding:  0px 30px !important;
@@ -77,10 +87,21 @@
   .navbarToggler {
     margin: 0px 20px !important;
   }
-  /* .btnTop {
-    position: fixed;
-    right: 20px;
-    bottom: 50px;
-    z-index: 99999;
-  } */
+
+}
+/* ============================================= */
+@media screen and (max-width: 500px) {
+  .navbarToggler {
+    background-color: #e8ac34 !important;
+  }
+  .navbarSH{
+    margin: 0px 20px;
+  }
+  .navbarBot {
+    padding:  0px 30px !important;
+  }
+  .navbarToggler {
+    margin: 0px 20px !important;
+  }
+
 }

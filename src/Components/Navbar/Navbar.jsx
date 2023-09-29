@@ -35,13 +35,14 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg fs-4    ">
+      <nav className="navbar navbar-expand-lg fs-4     ">
         <div
           ref={headerRef}
           className={`container-fluid ${style.header}  `}
         >
           <a
-            className={`${style.navbarBoth} navbar-brand text-warning  fs-1 fw-bold mx-5 px-5 `}
+            className={`${style.navbarSH} 
+            navbar-brand text-warning  fs-1 fw-bold  `}
             href="#HOME"
           >
             sHaaBan
