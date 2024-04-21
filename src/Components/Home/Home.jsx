@@ -15,7 +15,8 @@ const Home = () => {
                   <span className={style.Hello}>!Hello, </span> I'm{" "}
                   <span className="text-warning shaban-hamdy">
                     {" "}
-                    sHaaBan HaMdy
+                    {/* sHaaBan HaMdy */}
+                    Shaaban Hamdy
                   </span>
                 </h1>
               </div>

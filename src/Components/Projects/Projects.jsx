@@ -5,6 +5,7 @@ import notes from "../images/notes.png";
 import CRUD from "../images/CRUD SYSTEM .png";
 import Yummy from "../images/Yummy.png";
 import crudTypescript from "../images/crus-typescript.png";
+import freshCard from "../images/freshCard.png";
 import graph from "../images/graphQL.png";
 import eCommerce from "../images/e-commerce.PNG";
 import "./Projects.css";
@@ -15,130 +16,42 @@ const Projects = () => {
         <div className="text-center my-5 ">
           <h2 className="Project">Projects</h2>
         </div>
+        {/* ========================================================================================= */}
 
         <div className="col-md-4 col-Project">
-          <div className="mainCard  w-75" style={{ width: "30rem" }}>
+          <div className="mainCard  w-100">
             <div className="imgDiv">
-              <img className="imgProject w-100" src={eCommerce} />
+              <img className="imgProject w-100" src={freshCard} />
             </div>
             <div className="textBody">
               <div className="btnDiv">
                 <a
                   target="_blank"
-                  href="https://github.com/ShaabanHamdy/ecommerce-menWares-React"
+                  href="https://github.com/ShaabanHamdy/ecommerce-fresh-cart-react"
                 >
                   <button className="btn btn-info mx-5">Github</button>
                 </a>
                 <a
                   target="_blank"
-                  href="https://shaaban-hamdy-mensfashion-ecommerce.netlify.app/"
+                  href="https://shaaban-hamdy-fresh-cart.netlify.app/#/"
                 >
                   <button className="btn btn-info">Live Demo</button>
                 </a>
               </div>
             </div>
             <div className="p-2 text-center des">
-              <h3 className=" fw-bold">E-commerce project</h3>
+              <h3 className=" fw-bold">E-commerce fresh cart </h3>
               <p className=" fw-bold">
-              E-commerce project with MERN Stack using [ React.js-Node.js-Express.js-Context-Bootstrap-mongoDB]
+                E-commerce project with MERN Stack using [ React.js - Node.js -
+                Express.js - Context - Bootstrap - mongoDB - Stripe ]
               </p>
             </div>
           </div>
         </div>
-        
-        <div className="col-md-4 col-Project">
-          <div className="mainCard  w-75" style={{ width: "30rem" }}>
-            <div className="imgDiv">
-              <img className="imgProject w-100" src={crudTypescript} />
-            </div>
-            <div className="textBody">
-              <div className="btnDiv">
-                <a
-                  target="_blank"
-                  href="https://github.com/ShaabanHamdy/React-TypeScript-Crud-System"
-                >
-                  <button className="btn btn-info mx-5">Github</button>
-                </a>
-                <a
-                  target="_blank"
-                  href="https://shaban-hamdy-react-typescrit-crud.netlify.app/"
-                >
-                  <button className="btn btn-info">Live Demo</button>
-                </a>
-              </div>
-            </div>
-            <div className="p-2 text-center des">
-              <h3 className=" fw-bold">To Do List React-TypeScript</h3>
-              <p className=" fw-bold">
-                simple to-do-list project using Vite-React-TypeScript you can able to
-                add and edit and remove your note
-              </p>
-            </div>
-          </div>
-        </div>
+        {/* ========================================================================================================== */}
 
         <div className="col-md-4 col-Project">
-          <div className="mainCard  w-75" style={{ width: "30rem" }}>
-            <div className="imgDiv">
-              <img className="imgProject w-100" src={Countdown} />
-            </div>
-            <div className="textBody">
-              <div className="btnDiv">
-                <a
-                  target="_blank"
-                  href="https://github.com/ShaabanHamdy/Countdown-to-New-Year-2024"
-                >
-                  <button className="btn btn-info mx-5">Github</button>
-                </a>
-                <a
-                  target="_blank"
-                  href="https://shaabanhamdy.github.io/Countdown-to-New-Year-2024/"
-                >
-                  <button className="btn btn-info">Live Demo</button>
-                </a>
-              </div>
-            </div>
-            <div className="p-2 text-center des">
-              <h2 className=" fw-bold">Countdown project</h2>
-              <p className=" fw-bold">
-                countdown with days and hours and minutes and seconds to new
-                year 2024 using HTML-CSS-Bootstrap-Js-jQuery
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 col-Project">
-          <div className="mainCard  w-75" style={{ width: "30rem" }}>
-            <div className="imgDiv">
-              <img className="imgProject w-100" src={graph} />
-            </div>
-            <div className="textBody">
-              <div className="btnDiv">
-                <a
-                  target="_blank"
-                  href="https://github.com/ShaabanHamdy/To-do-list-GraphQL-React"
-                >
-                  <button className="btn btn-info mx-5">Github</button>
-                </a>
-                <a
-                  target="_blank"
-                  href="https://to-do-list-graph-ql-react-shaaban-hamdy.vercel.app/"
-                >
-                  <button className="btn btn-info">Live Demo</button>
-                </a>
-              </div>
-            </div>
-            <div className="p-2 text-center des">
-              <h2 className=" fw-bold">GraphQL project</h2>
-              <p className=" fw-bold">
-            simple to do list using GraphQL with React in front and Node in back database MongoDB
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-4 col-Project">
-          <div className="mainCard  w-75" style={{ width: "30rem" }}>
+          <div className="mainCard  w-100">
             <div className="imgDiv">
               <img className="imgProject w-100" src={noxMove} />
             </div>
@@ -168,9 +81,138 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        {/* ========================================================================================================== */}
 
         <div className="col-md-4 col-Project">
-          <div className="mainCard  w-75" style={{ width: "30rem" }}>
+          <div className="mainCard  w-100">
+            <div className="imgDiv">
+              <img className="imgProject w-100" src={notes} />
+            </div>
+            <div className="textBody">
+              <div className="btnDiv">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShaabanHamdy/react-notes"
+                >
+                  <button className="btn btn-info mx-5">Github</button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://shaban-hamdy-react-notes.vercel.app/#/"
+                >
+                  <button className="btn btn-info">Live Demo</button>
+                </a>
+              </div>
+            </div>
+            <div className="p-2 text-center des">
+              <h2 className=" fw-bold">Notes </h2>
+              <p className=" fw-bold">
+                {" "}
+                to do list project CRUD with MERN Stack using [ MondoDB -
+                Express.js - React.js - Node.js - Redux - Bootstrap ]
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* ========================================================================================= */}
+
+        <div className="col-md-4 col-Project">
+          <div className="mainCard  w-100">
+            <div className="imgDiv">
+              <img className="imgProject w-100" src={crudTypescript} />
+            </div>
+            <div className="textBody">
+              <div className="btnDiv">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShaabanHamdy/React-TypeScript-Crud-System"
+                >
+                  <button className="btn btn-info mx-5">Github</button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://shaban-hamdy-react-typescrit-crud.netlify.app/"
+                >
+                  <button className="btn btn-info">Live Demo</button>
+                </a>
+              </div>
+            </div>
+            <div className="p-2 text-center des">
+              <h3 className=" fw-bold">To Do List React-TypeScript</h3>
+              <p className=" fw-bold">
+                simple to-do-list project using Vite-React-TypeScript you can
+                able to add and edit and remove your note
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* ========================================================================================= */}
+        <div className="col-md-4 col-Project">
+          <div className="mainCard  w-100">
+            <div className="imgDiv">
+              <img className="imgProject w-100" src={Countdown} />
+            </div>
+            <div className="textBody">
+              <div className="btnDiv">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShaabanHamdy/Countdown-to-New-Year-2024"
+                >
+                  <button className="btn btn-info mx-5">Github</button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://shaabanhamdy.github.io/Countdown-to-New-Year-2024/"
+                >
+                  <button className="btn btn-info">Live Demo</button>
+                </a>
+              </div>
+            </div>
+            <div className="p-2 text-center des">
+              <h2 className=" fw-bold">Countdown project</h2>
+              <p className=" fw-bold">
+                countdown with days and hours and minutes and seconds to new
+                year 2024 using HTML-CSS-Bootstrap-Js-jQuery
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* ========================================================================================================== */}
+
+        <div className="col-md-4 col-Project">
+          <div className="mainCard  w-100">
+            <div className="imgDiv">
+              <img className="imgProject w-100" src={graph} />
+            </div>
+            <div className="textBody">
+              <div className="btnDiv">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShaabanHamdy/To-do-list-GraphQL-React"
+                >
+                  <button className="btn btn-info mx-5">Github</button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://to-do-list-graph-ql-react-shaaban-hamdy.vercel.app/"
+                >
+                  <button className="btn btn-info">Live Demo</button>
+                </a>
+              </div>
+            </div>
+            <div className="p-2 text-center des">
+              <h2 className=" fw-bold">GraphQL project</h2>
+              <p className=" fw-bold">
+                simple to do list using GraphQL with React in front and Node in
+                back database MongoDB
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* ========================================================================================================== */}
+
+        <div className="col-md-4 col-Project">
+          <div className="mainCard  w-100">
             <div className="imgDiv">
               <img className="imgProject w-100" src={CRUD} />
             </div>
@@ -201,9 +243,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        {/* ========================================================================================================== */}
 
         <div className="col-md-4 col-Project">
-          <div className="mainCard  w-75" style={{ width: "30rem" }}>
+          <div className="mainCard  w-100">
             <div className="imgDiv">
               <img className="imgProject w-100" src={Yummy} />
             </div>
@@ -233,33 +276,34 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/* ========================================================================================================== */}
         <div className="col-md-4 col-Project">
-          <div className="mainCard  w-75" style={{ width: "30rem" }}>
+          <div className="mainCard  w-100">
             <div className="imgDiv">
-              <img className="imgProject w-100" src={notes} />
+              <img className="imgProject w-100" src={eCommerce} />
             </div>
             <div className="textBody">
               <div className="btnDiv">
                 <a
                   target="_blank"
-                  href="https://github.com/ShaabanHamdy/react-notes"
+                  href="https://github.com/ShaabanHamdy/ecommerce-menWares-React"
                 >
                   <button className="btn btn-info mx-5">Github</button>
                 </a>
                 <a
                   target="_blank"
-                  href="https://shaban-hamdy-react-notes.vercel.app/#/"
+                  href="https://shaaban-hamdy-mensfashion-ecommerce.netlify.app/"
                 >
                   <button className="btn btn-info">Live Demo</button>
                 </a>
               </div>
             </div>
             <div className="p-2 text-center des">
-              <h2 className=" fw-bold">Notes </h2>
+              <h3 className=" fw-bold">E-commerce project</h3>
               <p className=" fw-bold">
-                {" "}
-                to do list project CRUD with MERN Stack using [ MondoDB -
-                Express.js - React.js - Node.js - Redux - Bootstrap ]
+                E-commerce project with MERN Stack using [
+                React.js-Node.js-Express.js-Context-Bootstrap-mongoDB]
               </p>
             </div>
           </div>

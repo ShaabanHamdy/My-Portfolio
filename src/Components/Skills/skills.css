@@ -19,9 +19,9 @@
 }
 
 .rowAll {
-  border: 1px solid #e8ac34;
+  border: 1px solid #ffffff;
   border-radius: 30px;
-  padding: 50px;
+  /* padding: 50px; */
   margin: 50px 0px 150px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -42,7 +42,7 @@
 }
 /* =================================================================== */
 @media screen and (min-width: 500px) and (max-width: 770px) {
-  #SKILLS{
+  #SKILLS {
     margin: 50px;
   }
   .rowAll {
@@ -54,8 +54,8 @@
   }
 }
 /* //============================================== */
-@media screen and  (max-width: 500px) {
-  #SKILLS{
+@media screen and (max-width: 500px) {
+  #SKILLS {
     margin: 50px;
   }
 
@@ -64,7 +64,7 @@
     width: 80px;
     height: 1px;
   }
-  
+
   .rowAll {
     padding: 0px;
     margin: 0;

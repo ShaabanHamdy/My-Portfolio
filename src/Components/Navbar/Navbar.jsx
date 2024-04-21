@@ -45,7 +45,7 @@ const Navbar = () => {
             navbar-brand text-warning  fs-1 fw-bold  `}
             href="#HOME"
           >
-            sHaaBan
+            ShaaBan
           </a>
           <button
             className={`${style.navbarToggler} navbar-toggler`}
