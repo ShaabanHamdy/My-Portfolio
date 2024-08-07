@@ -1,14 +1,18 @@
 import React from "react";
-import Countdown from "../images/Countdown.png";
-import noxMove from "../images/noxe.png";
-import notes from "../images/notes.png";
 import CRUD from "../images/CRUD SYSTEM .png";
+import Countdown from "../images/Countdown.png";
+import Dashboard from "../images/Dashboard.PNG";
+import Ecwid from "../images/Ecwid.PNG";
 import Yummy from "../images/Yummy.png";
 import crudTypescript from "../images/crus-typescript.png";
+import eCommerce from "../images/e-commerce.PNG";
 import freshCard from "../images/freshCard.png";
 import graph from "../images/graphQL.png";
-import eCommerce from "../images/e-commerce.PNG";
+import notes from "../images/notes.png";
+import noxMove from "../images/noxe.png";
+
 import "./Projects.css";
+
 const Projects = () => {
   return (
     <>
@@ -17,6 +21,7 @@ const Projects = () => {
           <h2 className="Project">Projects</h2>
         </div>
         {/* ========================================================================================= */}
+        {/* =====================  fresh card   ==================================================================== */}
 
         <div className="col-md-4 col-Project">
           <div className="mainCard  w-100">
@@ -48,7 +53,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* ========================================================================================================== */}
+        {/* ============================  Noxe movie  ============================================================================== */}
 
         <div className="col-md-4 col-Project">
           <div className="mainCard  w-100">
@@ -81,6 +86,72 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        {/* ============================ Admin Dashboard   ============================================================================== */}
+        <div className="col-md-4 col-Project">
+          <div className="mainCard  w-100">
+            <div className="imgDiv">
+              <img className="imgProject w-100" src={Dashboard} />
+            </div>
+            <div className="textBody">
+              <div className="btnDiv">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShaabanHamdy/React-Admin-Dashboard"
+                >
+                  <button className="btn btn-info mx-5">Github</button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://react-admin-dashboard-shaaban.netlify.app/"
+                >
+                  <button className="btn btn-info">Live Demo</button>
+                </a>
+              </div>
+            </div>
+            <div className="p-2 text-center des">
+              <h2 className=" fw-bold">React Admin Dashboard</h2>
+              <p className=" fw-bold">
+                Admin Dashboard project
+                <br />[ React.js - Vite - Material_UI - React-hook-form ]
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* ========================================================================================================== */}
+        {/* ============================ Admin Dashboard   ============================================================================== */}
+        <div className="col-md-4 col-Project">
+          <div className="mainCard  w-100">
+            <div className="imgDiv">
+              <img className="imgProject w-100" src={Ecwid} />
+            </div>
+            <div className="textBody">
+              <div className="btnDiv">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShaabanHamdy/ecwidProject"
+                >
+                  <button className="btn btn-info mx-5">Github</button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://shaaban-hamdy-ecwid-project.netlify.app/"
+                >
+                  <button className="btn btn-info">Live Demo</button>
+                </a>
+              </div>
+            </div>
+            <div className="p-2 text-center des">
+              <h2 className=" fw-bold">Ecwid Project </h2>
+              <p className=" fw-bold">
+                Ecwid like Ecwid for sale website
+                <br />[ React.js - Bootstrap - TextAnimation - framer-motion-
+                Custom Hocks ]
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* ========================================================================================================== */}
 
         <div className="col-md-4 col-Project">
@@ -162,7 +233,7 @@ const Projects = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://shaabanhamdy.github.io/Countdown-to-New-Year-2024/"
+                  href="https://shaaban-countdown-to-new-year-2024.netlify.app/"
                 >
                   <button className="btn btn-info">Live Demo</button>
                 </a>
